@@ -51,20 +51,32 @@ Researched answer:
 
 
 action: "GET"    location: /students          
+students#index 
+show the main page
 
 action: "POST"   location: /students       
+students#create
+would be recieving information to place in a db
 
 action: "GET"    location: /students/new
+students#new
+would use a form to get the information
 
 action: "GET"    location: /students/2  
+students#show
+returns the page 2 under students
 
 action: "GET"    location: /students/2/edit    
+students#edit
+using the /2/ would allow edit to show a form specific to that id number
 
 action: "PATCH"  location: /students/2      
+students#update
+would be recieving information to make changes to a specific id number
 
 action: "DELETE" location: /students/2      
-
-
+students#delete
+would delete the id number 2 from the db
 
 5. As a developer, you are making an application to manage your to do list. Create 10 user stories that will help you get your application started. Read more about [user stories](https://www.atlassian.com/agile/project-management/user-stories).
 
